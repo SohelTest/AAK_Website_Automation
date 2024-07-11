@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.ForgotPassword">
+        <methods>
+          <include name="browser"/>
+          <include name="WrongMailIDForgotPassword"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- testCases.ForgotPassword -->
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="RememberMeCheckbox"/>
+          <include name="browser"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
